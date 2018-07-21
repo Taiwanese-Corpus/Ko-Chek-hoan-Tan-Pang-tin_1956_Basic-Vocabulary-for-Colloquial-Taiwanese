@@ -1,0 +1,16 @@
+sudo: false
+dist: trusty
+language: python
+branches:
+  only:
+  - master
+script:
+- echo Tai-bun!!
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token:
+    secure: giDP97bDjDyYezO36kU0y7VYxNG2iRmBjhXSr6xl/JISwIOKXEApMmQPDALOOM6wiEeXrN172JpCSTFexm71JfteMNf/3z4x1PcNXwZb6JpEAQKiY1ztoUxQrcMkEU9jD2f74zBLIKb5pOBe3+O5YaRJ6yF2IuNDt9bU6sV1AIw9LL7zM7DNotRUdV9C2yL+P7CK3yEUwEQntB476Pex7j88g+6C6YsCFja2hc2EHmhZwAcJp7KbJGfshgo0rvreydCglWWQLIkPNVJdkcwG3uu+bQyn8YQBBHCSJiN0xsXIAuV6bdMM/3bu69yGPU2Qw027iTFA+yUjKfKtNdo37mXpM7mksGLtQQ9rHE7hlpy7CECJw390KyWdhj3iyKN6YJkGe+xILl+AnJeuEGAhDkFXminzgYiPryctlqZD8Xe/bhySDi366iqMCITexkzHjHT/LFHBdZ1xi4IIbDjh5e0kPhofurgqpZIDPPzLpNj1s5YobJkDFMvjGhfe4owlnKXunVcLWLGL6ZGwSiSIeE3OtG03zwLwlVFkznKGQ5tM2AHeO7bmxxY2m2aWOJpLR/abjjtA3Jaoo2Kvy573zDFUcF6F0JocO/F8TyWHk+IMYRco0H52t3JhhktSPD9vT8+0eIzDgomAKVlO7pzNLjWTrt+ZW9Al3TXeeoAhFbQ=
+  local_dir: ip194097.ntcu.edu.tw/
+  on:
+    branch: master
