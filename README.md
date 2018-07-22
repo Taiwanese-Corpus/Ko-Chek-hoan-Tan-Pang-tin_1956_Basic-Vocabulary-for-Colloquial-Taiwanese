@@ -16,5 +16,8 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW
 ## 原網站鏡像指令
 ```
 wget -r -l inf --page-requisites --no-parent --convert-links --adjust-extension --reject='mowt.asp','Tgb.asp' http://ip194097.ntcu.edu.tw/memory/TGB/thak.asp?id=862
+rename 's/_.*_/_頁面_/g' ip194097.ntcu.edu.tw/memory/TGB/data/TOPOKCGK/*
+find ip194097.ntcu.edu.tw/ -name '*html' -exec bash -c "iconv -f big5 -t utf8 '{}' > a.html && mv a.html '{}'" \;
+find ip194097.ntcu.edu.tw/ -name '*html' -exec sed 's/big5/utf-8/g' -i {} \;
 ```
 鏡像站：[gh-pages](https://taiwanese-corpus.github.io/Ko-Chek-hoan-Tan-Pang-tin_1956_Basic-Vocabulary-for-Colloquial-Taiwanese/memory/TGB/thak.asp%3Fid=862.html)
