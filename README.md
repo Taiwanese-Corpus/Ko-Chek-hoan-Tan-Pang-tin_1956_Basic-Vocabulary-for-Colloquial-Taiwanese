@@ -1,9 +1,11 @@
 # Basic Vocabulary for Colloquial Taiwanese 台灣白話基礎語句 Ko Chek-hòan, Tân Pang-tìn 1956 
 [![Build Status](https://travis-ci.org/Taiwanese-Corpus/Ko-Chek-hoan-Tan-Pang-tin_1956_Basic-Vocabulary-for-Colloquial-Taiwanese.svg?branch=master)](https://travis-ci.org/Taiwanese-Corpus/Ko-Chek-hoan-Tan-Pang-tin_1956_Basic-Vocabulary-for-Colloquial-Taiwanese)
 
+## 原始網站
+- 對楊允言老師的『[台語文記憶](http://ip194097.ntcu.edu.tw/memory/TGB/thak.asp?id=862)』計畫網站引用
+
 ## 數位化版本
 - [ChhoeTaigi計劃](https://github.com/ChhoeTaigi/ChhoeTaigiDatabase#8-%E5%8F%B0%E7%81%A3%E7%99%BD%E8%A9%B1%E5%9F%BA%E7%A4%8E%E8%AA%9E%E5%8F%A5)
-- 
 ```
 【台灣白話基礎語句】
 （A Basic Vocabulary for a Beginner in Taiwanese）
